@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://icorepams.pingan.com.cn:5380/mobile_single_insurance/queryProductDetails.do?account=koudaiyinhang",
+  "jiashiren":"&plansId=jiashirenyiwai",
+  "yinanjiaotong":"&plansId=yinianjiaotongyiwai",
+  "shaoer":"&plansId=shaoerzonghe",
+  "aibeijia":"&plansId=aibeijiajiacaixian",
+  "toubhref":"http://pa18-wapmall-dmzstg1.pingan.com.cn:5380/chaoshi/baoxian/toubao/tianxie.do",
+  "rymid":"wap-chaoshi-rym-APPID"
+}

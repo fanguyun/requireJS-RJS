@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="src/style/main.css" type="text/css"/>
+    <script type="text/javascript">
+        var src = "https://dn-maam-rymapp-stg.qbox.me/webSDK/sdk.js?v1="+Date.parse(new Date());
+        document.write("<script src='"+src+"'/><\/script>");
+    </script>
+    <script src="https://dn-maam-rymapp-stg.qbox.me/nativeJS/native.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="mask"></div>
+<div id="maskFnBg"></div>
+<div id="maskNoBg"></div>
+<div id="loading">页面加载中...</div>
+<div id="newAlert"></div>
+<div id="modelBox"></div>
+<div id="page">
+    <!--首页-->
+    <div id="page_main" class="pageMode"></div>
+    <!--错误页面-->
+    <div id="page_error" class="pageMode"></div>
+</div>
+<script src="src/script/lib/require/v2.1.11/require.js" defer="defer" data-main="src/script/main"></script>
+<script src="http://www.pingan.com/app_js/sdc/prd/sdc_m.js" type="text/javascript"></script>
+</body>
+</html>
